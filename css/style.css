@@ -4,14 +4,18 @@
     outline: 0;
 }
 
-a,
+/* a,
 a:hover {
     text-decoration: none;
-}
+} */
 
 ul,
 ol {
     text-decoration-style: none;
+}
+
+li {
+    list-style: none;
 }
 
 .h1,
@@ -462,7 +466,6 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     padding: 200px 0px 50px;
-
 }
 
 #insider-part a {
@@ -494,3 +497,426 @@ body {
 }
 
 /* insider-part ends */
+
+/*===== video part css start =====*/
+
+#video-part {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#video-part h2 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 55px 70px 25px 25px;
+    letter-spacing: 2px;
+    line-height: 70px;
+}
+
+#video-part p {
+    color: rgb(103, 103, 103);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    word-spacing: 3px;
+    padding: 0px 60px 0px 25px;
+}
+
+#video-part img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#video-part .video-head {
+    position: relative;
+}
+
+#video-part .video-head i {
+    font-size: 18px;
+    color: #000;
+    width: 90px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 14px;
+    background: #ffff;
+    position: absolute;
+    top: 200px;
+    left: 307px;
+    transition: all 0.3s ease;
+    border: 2px solid #000;
+}
+
+#video-part .video-head i:hover {
+    background: transparent;
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.541);
+
+    color: #fff;
+}
+
+
+/*===== video-part css ends =====*/
+
+/* mail-part start */
+#mail-part {
+    background-image: url(../images/letter.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#mail-part .mail-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+#mail-part h2 {
+    color: #ffff;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 150px 0px 50px;
+}
+
+#mail-part input {
+    width: 450px;
+    height: 50px;
+    border: 0;
+    font-size: 13px;
+    color: rgb(56, 54, 54);
+    padding-left: 25px;
+    border-bottom: 2px solid black;
+}
+
+
+#mail-part a {
+    padding: 16px 25px;
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    position: relative;
+    transition: all .3s ease;
+}
+
+#mail-part a::after {
+    content: " ";
+    position: absolute;
+    height: 1px;
+    width: 55px;
+    background-color: #000;
+    bottom: 7px;
+    left: 26px;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+
+#mail-part a:hover:after {
+    visibility: visible;
+}
+
+/* mail-part ends */
+
+/* insta-canvas start */
+#insta-canvas {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: #000;
+}
+
+
+#insta-canvas h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px 0px 25px 0px;
+    letter-spacing: 2px;
+}
+
+#insta-canvas p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 0px 0px 50px 0px;
+}
+
+#insta-canvas a {
+    color: #fff;
+    font-size: 16px;
+}
+
+#insta-canvas .slide-item {
+    overflow: hidden;
+}
+
+#insta-canvas .slide-item img {
+    width: 100%;
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+}
+
+#insta-canvas .slide-item:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+#insta-canvas ul {
+    display: block;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-9%);
+}
+
+#insta-canvas .slick-dots li {
+    list-style: none;
+    display: inline-block;
+}
+
+#insta-canvas .slick-dots li button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* insta-canvas ends */
+
+
+/* follow-part start */
+#follow-part {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+
+#follow-part h2 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0px 0px 15px 0px;
+}
+
+#follow-part .follow-icons ul {
+    display: block;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+#follow-part .follow-icons ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+#follow-part .follow-icons ul li i {
+    border: 1px solid #000;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all 0.3s ease-in;
+}
+
+#follow-part .follow-icons ul li i:hover {
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #000;
+}
+
+/* follow-part ends */
+
+
+/* info-part start */
+#info-part {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+#info-part .first-part h5 {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#info-part .first-part p {
+    font-size: 13px;
+    color: rgb(123 119 119);
+    font-weight: 500;
+    padding: 10px 0px 0px;
+}
+
+#info-part .first-part a {
+    text-decoration: underline;
+    color: #000;
+}
+
+#info-part .first-part ul {
+    display: block;
+}
+
+#info-part .first-part li {
+    display: inline-block;
+
+}
+
+#info-part .first-part a {
+    color: #000;
+    font-size: 14px;
+    margin-right: 13px;
+    font-weight: 500;
+}
+
+#info-part .second-part h5 {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#info-part .second-part p {
+    font-size: 13px;
+    color: rgb(123 119 119);
+    font-weight: 500;
+    padding: 10px 0px 15px;
+}
+
+#info-part .second-part form {
+    position: relative;
+}
+
+#info-part .second-part i {
+    font-size: 16px;
+    color: rgb(36, 36, 36);
+    font-weight: 400;
+    position: absolute;
+    bottom: 6px;
+    right: 25px;
+}
+
+#info-part .second-part input {
+    height: 30px;
+    width: 330px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(143, 143, 143);
+    font-size: 13px;
+    color: rgb(123 119 119);
+    font-weight: 500;
+}
+
+#info-part .second-part input:focus {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#info-part .third-part h5 {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#info-part .third-part p {
+    font-size: 13px;
+    color: rgb(123 119 119);
+    font-weight: 500;
+    padding: 10px 0px 15px;
+}
+
+#info-part .third-part form {
+    position: relative;
+}
+
+#info-part .third-part i {
+    font-size: 12px;
+    color: rgb(70, 70, 70);
+    font-weight: 400;
+    position: absolute;
+    bottom: 7px;
+    right: 22px;
+}
+
+#info-part .third-part h6 {
+    font-size: 13px;
+    color: rgb(58, 58, 58);
+    font-weight: 600;
+    position: absolute;
+    bottom: 6px;
+    right: 34px;
+}
+
+#info-part .third-part input {
+    height: 30px;
+    width: 330px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(143, 143, 143);
+    font-size: 13px;
+    color: rgb(123 119 119);
+    font-weight: 500;
+}
+
+#info-part .third-part input:focus {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+/* info-part ends */
+
+
+/* footer-part start */
+
+#footer-part {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(../images/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#footer-part h2 {
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 6px;
+    padding-bottom: 60px;
+}
+
+#footer-part h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#footer-part p {
+    color: rgb(204, 202, 202);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* footer-part ends */
