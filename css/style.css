@@ -688,6 +688,7 @@ video {
     padding-top: 100px;
     padding-bottom: 80px;
     background-color: #000;
+    z-index: 1;
 }
 
 
@@ -1392,3 +1393,362 @@ video {
 
 
 /* testimonials-part ends */
+
+
+/* history-banner start */
+#history-banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#history-banner img {
+    width: 100%;
+}
+
+#history-banner .lower-parts {
+    padding-top: 40px;
+}
+
+#history-banner .lower-parts h3 {
+    color: #1d1d1d;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 18px 0 9px;
+}
+
+#history-banner .lower-parts p {
+    color: rgb(20, 20, 20);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: .1px;
+    line-height: 23px;
+    padding-bottom: 36px;
+}
+
+#history-banner .lower-parts .main-description {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+/* history-banner ends */
+
+
+/* history-body start */
+#history-body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #000;
+    position: relative;
+    /* z-index: -1; */
+}
+
+#history-body .left-bar {
+    color: #fff;
+    height: 300px;
+    width: 160px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#history-body .left-bar ul li {
+    padding: 0px 0px 12px;
+}
+
+#history-body .left-bar a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+
+#history-body .left-bar a::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0;
+    left: 15px;
+    bottom: -10px;
+    transform: translateX(-50%);
+    background-color: #fff;
+    transition: width .3s;
+}
+
+#history-body .left-bar a:hover::after {
+    width: 100%;
+}
+
+
+#history-body h2 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0px 0px 60px;
+    letter-spacing: 3px;
+}
+
+#history-body .year-details {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#history-body .year-details::-webkit-scrollbar {
+    display: none;
+}
+
+
+#history-body .year-details {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#history-body img {
+    width: 100%;
+}
+
+
+#history-body .year-details .common-year-space {
+    position: relative;
+    padding: 50px 0px 230px;
+}
+
+#history-body .year-details .common-year-space h2 {
+    font-size: 15vw;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -70%);
+
+}
+
+#history-body .year-details .common-year-space a {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 90px;
+}
+
+#history-body .year-details .common-year-space i {
+    padding-left: 10px;
+}
+
+#history-body .year-details .common-year-space a:hover {
+    text-decoration: underline;
+}
+
+#history-body .year-details #year-two .image-one {
+    height: 320px;
+    width: 460px;
+}
+
+#history-body .year-details #year-two .image-two {
+    height: 340px;
+    width: 360px;
+    margin-top: 70px;
+}
+
+#history-body .year-details #year-two .image-three {
+    height: 250px;
+    width: 360px;
+    margin-top: 220px;
+}
+
+#history-body .year-details #year-two .image-four {
+    height: 500px;
+    width: 360px;
+    margin-top: 220px;
+}
+
+
+#history-body .year-details #year-two h2 {
+    top: 36%;
+}
+
+#history-body .year-details #year-two a {
+    top: 39%;
+    color: #fff;
+}
+
+#history-body .year-details #year-three .image-one {
+    height: 400px;
+    width: 360px;
+    margin-right: 30px;
+}
+
+#history-body .year-details #year-three .image-two {
+    height: 300px;
+    width: 460px;
+    margin: 50px 0px 0px 50px;
+}
+
+#history-body .year-details #year-three .image-three {
+    height: 330px;
+    width: 260px;
+    margin-top: 170px;
+    margin-right: 30px;
+}
+
+#history-body .year-details #year-three .image-four {
+    height: 400px;
+    width: 260px;
+    margin-top: 320px;
+    margin-left: -30px;
+}
+
+#history-body .year-details #year-three .image-five {
+    height: 430px;
+    width: 350px;
+    margin-top: 190px;
+    margin-left: 30px;
+}
+
+
+#history-body .year-details #year-three h2 {
+    top: 44%;
+}
+
+#history-body .year-details #year-three a {
+    top: 46%;
+    color: #fff;
+}
+
+/* history-body ends */
+
+
+/* history-details-body start */
+#history-details-body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #000;
+    position: relative;
+    /* z-index: -1; */
+}
+
+#history-details-body .left-bar {
+    color: #fff;
+    height: 300px;
+    width: 160px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#history-details-body .left-bar ul li {
+    padding: 0px 0px 12px;
+}
+
+#history-details-body .left-bar a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+
+#history-details-body .left-bar a::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0;
+    left: 15px;
+    bottom: -10px;
+    transform: translateX(-50%);
+    background-color: #fff;
+    transition: width .3s;
+}
+
+#history-details-body .left-bar a:hover::after {
+    width: 100%;
+}
+
+
+#history-details-body .year-details-box {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#history-details-body .year-details-box::-webkit-scrollbar {
+    display: none;
+}
+
+
+#history-details-body .year-details-box {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#history-details-body .year-details-box img {
+    width: 100%;
+}
+
+#history-details-body .year-details-box .first-year-details .img-part .first-img {
+    height: 500px;
+    width: 350px;
+}
+
+#history-details-body .year-details-box .first-year-details .img-part p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+#history-details-body .year-details-box .first-year-details .text-part h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+    padding-top: 170px;
+    letter-spacing: 3px;
+}
+
+#history-details-body .year-details-box .first-year-details .text-part h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+    letter-spacing: 3px;
+    padding: 20px 0px 30px;
+    text-transform: uppercase;
+}
+
+#history-details-body .year-details-box .first-year-details .text-part p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #fff;
+    padding: 0 30px;
+}
+
+#history-details-body .year-details-box .first-year-details .cross-part a {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
+#history-details-body .year-details-box .first-year-details .next-prev a {
+    position: absolute;
+    color: #fff;
+    bottom: 50px;
+    font-size: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#history-details-body .year-details-box .first-year-details .next-prev i {
+    font-size: 13px;
+}
