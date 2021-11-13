@@ -1267,29 +1267,28 @@ video {
 
 
 /* picture-part start */
-#picture-part {
+#shop-gallery {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-#picture-part img {
-    width: 100%;
+#shop-gallery .header{
+    padding: 30px 0px 60px;
 }
-
-#picture-part .top-cut {
-    margin-top: -150px;
-}
-
-#picture-part .text-part h5 {
-    font-size: 25px;
+#shop-gallery .header p {
+    font-size: 16px;
     color: #000;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding-bottom: 25px;
-    padding-top: 200px;
+    font-weight: 400;
 }
 
-#picture-part .text-part a {
+#shop-gallery .header h3 {
+    color: #000;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 0px 0px 30px;
+}
+
+#shop-gallery .header a {
     padding: 15px 25px;
     background-color: #fff;
     color: #000;
@@ -1302,7 +1301,43 @@ video {
     transition: all .3s ease;
 }
 
-#picture-part .text-part a:hover {
+#shop-gallery .header a:hover {
+    background-color: #000;
+    color: #ffff;
+}
+
+
+#shop-gallery img {
+    width: 100%;
+}
+
+#shop-gallery .top-cut {
+    margin-top: -150px;
+}
+
+#shop-gallery .text-part h5 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    padding-top: 200px;
+}
+
+#shop-gallery .text-part a {
+    padding: 15px 25px;
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #000;
+    position: relative;
+    transition: all .3s ease;
+}
+
+#shop-gallery .text-part a:hover {
     background-color: #000;
     color: #ffff;
 }
@@ -1749,9 +1784,13 @@ video {
     font-size: 13px;
 }
 
-/* history-details-body ends */
+/*******************************
+   history-details-body ends 
+ ********************************/
 
-/* still page start */
+/*******************************
+        still page start 
+ ********************************/
 /* still-banner start */
 #still-banner {
     background-image: url(../images/still-banner.jpeg);
@@ -1980,10 +2019,237 @@ video {
 }
 
 /* still-offering ends */
-/* still page ends */
+/*******************************
+        still page ends 
+ ********************************/
 
-/* Gateway page Start */
 
+
+
+/*******************************
+        shop page start 
+ ********************************/
+/* shop-banner start */
+#shop-banner {
+    background-image: url(../images/shop-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#shop-banner h2 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 250px 0px;
+}
+
+/* shop-banner ends */
+
+
+/* shop-part start */
+#shop-part {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#shop-part img {
+    width: 100%;
+}
+
+#shop-part .top-cut {
+    margin-top: -150px;
+}
+
+#shop-part .text-part h5 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    padding-top: 200px;
+}
+
+#shop-part .text-part a {
+    padding: 15px 25px;
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #000;
+    position: relative;
+    transition: all .3s ease;
+}
+
+#shop-part .text-part a:hover {
+    background-color: #000;
+    color: #ffff;
+}
+
+/* shop-part ends */
+
+
+
+/*******************************
+        shop page ends 
+ ********************************/
+
+/*******************************
+        insider page start 
+ ********************************/
+/* insider-banner start */
+#insider-banner {
+    background-image: url(../images/insider-banner-02.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#insider-banner h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 250px 0px;
+}
+
+/* insider-banner ends */
+
+/* insider-description start */
+#insider-description {
+    background-image: url(../images/insider-description.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#insider-description p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 200px 0px;
+}
+
+/* insider-description ends */
+
+
+/* blogging-media start */
+#blogging-media {
+    background-color: #000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#blogging-media img {
+    width: 100%;
+}
+
+#blogging-media .first-part h2 {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: #1d1d1d;
+    margin: 30px;
+}
+
+#blogging-media .first-part a {
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #ffff;
+    position: relative;
+    transition: all .3s ease;
+    display: inline-block;
+}
+
+#blogging-media .first-part a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+#blogging-media .insider-details {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#blogging-media .insider-details .top-cut {
+    margin-top: -150px;
+}
+
+#blogging-media .insider-details .text-part h5 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 100px 0px 25px 100px;
+}
+
+#blogging-media .insider-details .text-part p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding: 0px 0px 25px 100px;
+}
+
+#blogging-media .insider-details .text-part h6 {
+    padding-left: 100px;
+}
+
+#blogging-media .insider-details .text-part a {
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #ffff;
+    position: relative;
+    transition: all .3s ease;
+    display: inline-block;
+}
+
+#blogging-media .insider-details .text-part a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#blogging-media .last-part h2 {
+    color: #fff;
+    padding: 10px 0px 30px 0px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+/* blogging-media ends */
+
+
+/*******************************
+        insider page ends 
+ ********************************/
+
+
+
+
+
+/*******************************
+        gateway page start 
+ ********************************/
 /* gateway-banner start */
 #gateway-banner {
     background-image: url(../images/insider.jpg);
@@ -2037,7 +2303,7 @@ video {
     margin-right: -15px;
 }
 
-#apply-now .first-part  h4 {
+#apply-now .first-part h4 {
     color: #000;
     font-size: 28px;
     font-weight: 600;
@@ -2046,7 +2312,7 @@ video {
 
 }
 
-#apply-now .first-part  a {
+#apply-now .first-part a {
     padding: 15px 25px;
     background-color: #000;
     color: #fff;
@@ -2075,7 +2341,7 @@ video {
     margin-left: -15px;
 }
 
-#apply-now .second-part  h4 {
+#apply-now .second-part h4 {
     color: #fff;
     font-size: 28px;
     font-weight: 600;
@@ -2084,7 +2350,7 @@ video {
 
 }
 
-#apply-now .second-part  a {
+#apply-now .second-part a {
     padding: 15px 25px;
     background-color: #fff;
     color: #000;
@@ -2105,11 +2371,6 @@ video {
 
 
 /* apply-now ends */
-
-
-
-
-
 /* Gateway page ends */
 
 
