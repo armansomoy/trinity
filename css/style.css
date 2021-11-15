@@ -170,19 +170,20 @@ video {
 
 /* about-part start */
 #about-part {
-    height: 480px;
+    height: 600px;
     background-image: url(../images/history.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #about-part h2 {
     color: #000;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 50px;
+    padding: 200px 0px 40px;
 }
 
 #about-part a {
@@ -193,43 +194,35 @@ video {
     font-weight: 600;
     text-transform: uppercase;
     border-bottom: 2px solid #fff;
+    border: 1px solid #000;
     position: relative;
     transition: all .3s ease;
 }
 
-#about-part a::after {
-    content: " ";
-    position: absolute;
-    height: 1px;
-    width: 70px;
-    background-color: #fff;
-    bottom: 7px;
-    left: 26px;
-    visibility: hidden;
-    transition: all linear .3s;
-}
 
-#about-part a:hover:after {
-    visibility: visible;
+#about-part a:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 /* about-part ends */
 
 /* publications-part start */
 #publications-part {
-    height: 480px;
+    height: 600px;
     background-image: url(../images/publish.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #publications-part h2 {
     color: #fff;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 50px;
+    padding: 200px 0px 40px;
 }
 
 #publications-part a {
@@ -239,25 +232,15 @@ video {
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #fff;
     position: relative;
     transition: all .3s ease;
 }
 
-#publications-part a::after {
-    content: " ";
-    position: absolute;
-    height: 1px;
-    width: 70px;
+#publications-part#publications-part a:hover {
     background-color: #000;
-    bottom: 7px;
-    left: 26px;
-    visibility: hidden;
-    transition: all linear .3s;
-}
-
-#publications-part a:hover:after {
-    visibility: visible;
+    color: #fff;
 }
 
 /* publications-part ends */
@@ -266,7 +249,7 @@ video {
 
 /* project-part start */
 #project-part {
-    height: 480px;
+    height: 600px;
     background-image: url(../images/project.jpg);
     background-size: cover;
     background-position: center;
@@ -277,57 +260,49 @@ video {
 #project-part h2 {
     color: #000;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 50px;
+    padding: 200px 0px 40px;
 
 }
 
 #project-part a {
     padding: 15px 25px;
     background-color: #000;
-    color: #ffff;
+    color: #fff;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     border-bottom: 2px solid #fff;
+    border: 1px solid #000;
     position: relative;
     transition: all .3s ease;
 }
 
-#project-part a::after {
-    content: " ";
-    position: absolute;
-    height: 1px;
-    width: 70px;
-    background-color: #fff;
-    bottom: 7px;
-    left: 26px;
-    visibility: hidden;
-    transition: all linear .3s;
-}
 
-#project-part a:hover:after {
-    visibility: visible;
+#project-part a:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 /* project-part ends */
 
 /* service-part start */
 #service-part {
-    height: 480px;
+    height: 600px;
     background-image: url(../images/service.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #service-part h2 {
     color: #000;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 50px;
+    padding: 200px 0px 40px;
 }
 
 #service-part a {
@@ -337,32 +312,22 @@ video {
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #fff;
     position: relative;
     transition: all .3s ease;
 }
 
-#service-part a::after {
-    content: " ";
-    position: absolute;
-    height: 1px;
-    width: 70px;
+#service-part a:hover {
     background-color: #000;
-    bottom: 7px;
-    left: 26px;
-    visibility: hidden;
-    transition: all linear .3s;
-}
-
-#service-part a:hover:after {
-    visibility: visible;
+    color: #fff;
 }
 
 /* service-part ends */
 
 /* initiative-part start */
 #initiative-part {
-    height: 480px;
+    height: 600px;
     background-image: url(../images/initiative.jpg);
     background-size: cover;
     background-position: center;
@@ -373,56 +338,49 @@ video {
 #initiative-part h2 {
     color: #000;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 50px;
+    padding: 200px 0px 40px;
 }
 
 #initiative-part a {
     padding: 15px 25px;
     background-color: #000;
-    color: #ffff;
+    color: #fff;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     border-bottom: 2px solid #fff;
+    border: 1px solid #000;
     position: relative;
     transition: all .3s ease;
 }
 
-#initiative-part a::after {
-    content: " ";
-    position: absolute;
-    height: 1px;
-    width: 70px;
+
+#initiative-part a:hover {
     background-color: #fff;
-    bottom: 7px;
-    left: 26px;
-    visibility: hidden;
-    transition: all linear .3s;
+    color: #000;
 }
 
-#initiative-part a:hover:after {
-    visibility: visible;
-}
 
 /* initiative-part ends */
 
 /* travel-part start */
 #travel-part {
-    height: 480px;
+    height: 600px;
     background-image: url(../images/travel.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #travel-part h2 {
     color: #fff;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 50px;
+    padding: 200px 0px 40px;
 }
 
 #travel-part a {
@@ -432,25 +390,15 @@ video {
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #fff;
     position: relative;
     transition: all .3s ease;
 }
 
-#travel-part a::after {
-    content: " ";
-    position: absolute;
-    height: 1px;
-    width: 70px;
+#travel-part a:hover {
     background-color: #000;
-    bottom: 7px;
-    left: 26px;
-    visibility: hidden;
-    transition: all linear .3s;
-}
-
-#travel-part a:hover:after {
-    visibility: visible;
+    color: #fff;
 }
 
 /* travel-part ends */
@@ -458,7 +406,7 @@ video {
 
 /* shop-part start */
 #shop-part {
-    height: 480px;
+    height: 600px;
     background-image: url(../images/shop.jpg);
     background-size: cover;
     background-position: center;
@@ -469,57 +417,48 @@ video {
 #shop-part h2 {
     color: #000;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 50px;
+    padding: 200px 0px 40px;
 
 }
 
 #shop-part a {
     padding: 15px 25px;
     background-color: #000;
-    color: #ffff;
+    color: #fff;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     border-bottom: 2px solid #fff;
+    border: 1px solid #000;
     position: relative;
     transition: all .3s ease;
 }
 
-#shop-part a::after {
-    content: " ";
-    position: absolute;
-    height: 1px;
-    width: 70px;
+#shop-part a:hover {
     background-color: #fff;
-    bottom: 7px;
-    left: 26px;
-    visibility: hidden;
-    transition: all linear .3s;
-}
-
-#shop-part a:hover:after {
-    visibility: visible;
+    color: #000;
 }
 
 /* shop-part ends */
 
 /* insider-part start */
 #insider-part {
-    height: 480px;
+    height: 600px;
     background-image: url(../images/insider.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #insider-part h2 {
     color: #ffff;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 50px;
+    padding: 200px 0px 40px;
 }
 
 #insider-part a {
@@ -529,25 +468,15 @@ video {
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #fff;
     position: relative;
     transition: all .3s ease;
 }
 
-#insider-part a::after {
-    content: " ";
-    position: absolute;
-    height: 1px;
-    width: 70px;
+#insider-part a:hover {
     background-color: #000;
-    bottom: 7px;
-    left: 26px;
-    visibility: hidden;
-    transition: all linear .3s;
-}
-
-#insider-part a:hover:after {
-    visibility: visible;
+    color: #fff;
 }
 
 /* insider-part ends */
@@ -643,42 +572,32 @@ video {
 
 #mail-part input {
     width: 450px;
-    height: 50px;
+    height: 48px;
     border: 0;
     font-size: 13px;
     color: rgb(56, 54, 54);
     padding-left: 25px;
-    border-bottom: 2px solid black;
 }
 
 
 #mail-part a {
-    padding: 16px 25px;
-    background-color: #fff;
-    color: #000;
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #000;
     position: relative;
     transition: all .3s ease;
 }
 
-#mail-part a::after {
-    content: " ";
-    position: absolute;
-    height: 1px;
-    width: 55px;
-    background-color: #000;
-    bottom: 7px;
-    left: 26px;
-    visibility: hidden;
-    transition: all linear .3s;
+#mail-part a:hover {
+    background-color: #fff;
+    color: #000;
 }
 
-#mail-part a:hover:after {
-    visibility: visible;
-}
 
 /* mail-part ends */
 
@@ -1272,9 +1191,10 @@ video {
     padding-bottom: 60px;
 }
 
-#shop-gallery .header{
+#shop-gallery .header {
     padding: 30px 0px 60px;
 }
+
 #shop-gallery .header p {
     font-size: 16px;
     color: #000;
@@ -1313,6 +1233,14 @@ video {
 
 #shop-gallery .top-cut {
     margin-top: -150px;
+}
+
+#shop-gallery .extra-cut {
+    margin-top: -540px;
+}
+
+#shop-gallery .pad-top {
+    padding-top: 30px
 }
 
 #shop-gallery .text-part h5 {
@@ -2027,6 +1955,416 @@ video {
 
 
 /*******************************
+        service page start 
+ ********************************/
+/* shop-banner start */
+#service-banner {
+    background-image: url(../images/service-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#service-banner h2 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 250px 0px;
+}
+
+/* service-banner ends */
+
+
+/* service-description start */
+#service-description {
+    padding-top: 60px;
+}
+
+#service-description img {
+    width: 100%;
+    margin-bottom: -350px;
+}
+
+#service-description .text-part {
+    background-color: #1d1d1d;
+    height: 400px;
+}
+
+#service-description .text-part .text p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 60px 30px;
+}
+
+/* service-description ends */
+
+
+/* elevate start */
+#elevate {
+    background-image: url(../images/elevate.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 600px;
+}
+
+#elevate .overlay {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+#elevate h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 200px 0px 40px;
+}
+
+
+#elevate a {
+    padding: 15px 25px;
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #000;
+    position: relative;
+    transition: all .3s ease;
+}
+
+
+#elevate a:hover {
+    background-color: #000;
+    color: #ffff;
+}
+
+/* elevate ends */
+
+/* mindful start */
+#mindful {
+    background-image: url(../images/service-03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 600px;
+}
+
+
+#mindful h2 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 200px 0px 40px;
+}
+
+#mindful a {
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #000;
+    position: relative;
+    transition: all .3s ease;
+}
+
+#mindful a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* mindful ends */
+
+
+/* words start */
+#words {
+    background-image: url(../images/service-04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 600px;
+}
+
+#words .overlay {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+#words h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 200px 0px 40px;
+}
+
+#words a {
+    padding: 15px 25px;
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #000;
+    position: relative;
+    transition: all .3s ease;
+}
+
+#words a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* words ends */
+
+
+/* self-help start */
+#self-help {
+    background-image: url(../images/service-05.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 600px;
+}
+
+
+#self-help h2 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 200px 0px 40px;
+}
+
+#self-help a {
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #000;
+    position: relative;
+    transition: all .3s ease;
+}
+
+#self-help a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* self-help ends */
+
+/* everyday start */
+#everyday {
+    background-image: url(../images/service-07.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 600px;
+}
+
+#everyday .overlay {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+#everyday h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 200px 0px 40px;
+}
+
+#everyday a {
+    padding: 15px 25px;
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #000;
+    position: relative;
+    transition: all .3s ease;
+}
+
+#everyday a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* everyday ends */
+
+
+/* mindful-essentials start */
+#mindful-essentials {
+    background-image: url(../images/service-08.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 0px;
+}
+
+
+#mindful-essentials h2 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 200px 0px 40px;
+}
+
+#mindful-essentials a {
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    border: 1px solid #000;
+    position: relative;
+    transition: all .3s ease;
+}
+
+#mindful-essentials a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* mindful-essentials ends */
+
+/*******************************
+        service page ends 
+ ********************************/
+
+
+/*******************************
+        mentee page start 
+ ********************************/
+/* mentee-banner start */
+#mentee-banner {
+    background-image: url(../images/mentee-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#mentee-banner h2 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 250px 0px;
+}
+
+/* mentee-banner ends */
+
+
+/* mentee-description start */
+#mentee-description {
+    padding-top: 60px;
+}
+
+#mentee-description img {
+    width: 100%;
+    margin-bottom: -350px;
+}
+
+#mentee-description .text-part {
+    background-color: #1d1d1d;
+    height: 400px;
+}
+
+#mentee-description .text-part .text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 60px 0px;
+}
+
+/* mentee-description ends */
+
+
+/* meet start */
+#meet {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#meet img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#meet h4 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 50px 0px 30px;
+}
+
+#meet ul {
+    padding-left: 30px;
+}
+
+#meet li {
+    list-style-type: disc !important;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+
+}
+
+/* meet ends */
+
+
+/*******************************
+        mentee page ends 
+ ********************************/
+
+
+
+
+
+
+/*******************************
         shop page start 
  ********************************/
 /* shop-banner start */
@@ -2271,6 +2609,7 @@ video {
 
 
 /* slider-text-canvas start */
+
 #slider-text-canvas .carousel-item {
     position: relative;
 }
