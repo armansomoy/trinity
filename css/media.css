@@ -17,4 +17,46 @@
 
 /*======== Extra small device =========*/
 
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .large-device-logo {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .responsive-navbar {
+        display: block;
+    }
+
+    .top-border {
+        height: 8px;
+        background-color: #000;
+        display: none;
+    }
+
+    #banner-part {
+        height: 600px;
+    }
+
+    video {
+        height: 600px;
+    }
+
+    #banner-part h2 {
+        text-align: center;
+        font-size: 70px;
+        padding: 250px 0px;
+    }
+
+    #banner-part .overlay {
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #000c;
+        position: absolute;
+    }
+
+}

@@ -29,9 +29,19 @@
 
     <!-- navbar start -->
     <div class="top-border">
-
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light extra-large-nav">
+
+    <div class="large-device-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 m-auto text-center">
+                    <a href="index.html">T R I N I T Y</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light extra-large-nav">
 
         <div class="container navbar-container ">
             <div class="col-lg-7 text-right">
@@ -55,11 +65,12 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container navbar-container ">
+    <nav class="navbar navbar-expand-lg navbar-light bg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">T R I N I T Y</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -99,11 +110,61 @@
             </div>
         </div>
     </nav>
-    <!-- navbar ends -->
 
+
+    <!-- navbar ends -->
+    <section class="responsive-navbar">
+        <div class="responsive-top-border">
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 text-center m-auto">
+                        <a href="index.html">T R I N I T Y</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="history.html">HISTORY</a></li>
+                <li>
+                    <a href="publications.html">PUBLICATIONS</a>
+                </li>
+                <li>
+                    <a href="still.html">STILL</a>
+                </li>
+                <li>
+                    <a href="services.html">SERVICES</a>
+                </li>
+                <li>
+                    <a href="shop.html">SHOP</a>
+                </li>
+                <li>
+                    <a href="insider.html">INSIDER</a>
+                </li>
+                <li>
+                    <a href="gateway.html">GETAWAYS</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div id='center' class="main center">
+
+
+        </div>
+    </section>
 
     <!-- banner-part start -->
-
     <section id="banner-part">
         <video autoplay muted loop class="myVideo">
             <source src="images/TRINITY AND CO LANDING PAGE VIDEO.mp4" type="video/mp4">
@@ -127,7 +188,7 @@
                 <div class="col-lg-7 m-auto text-center">
                     <div class="">
                         <h2>ABOUT / THE HISTORY</h2>
-                            <h5><a href="#">SEE MORE</a></h5>
+                        <h5><a href="#">SEE MORE</a></h5>
                     </div>
                 </div>
             </div>
@@ -500,6 +561,36 @@
         </div>
     </section>
     <!-- footer-part ends -->
+
+
+    <!-- bottom to up btn -->
+    <a href="#" onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
 
 

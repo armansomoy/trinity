@@ -1,5 +1,17 @@
 $(function () {
 
+
+    //navbar fixed
+    $(window).scroll(function () {
+        var scrolling = $(this).scrollTop();
+        if (scrolling > 20) {
+            $('.navbar').addClass('bg');
+        } else {
+            $('.navbar').removeClass('bg');
+        }
+    });
+
+
     //video
     $('.venobox').venobox();
 
@@ -119,6 +131,7 @@ $(function () {
             $(this).removeClass("hover");
         }
     );
+
 
 
 });

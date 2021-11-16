@@ -4,6 +4,7 @@
     outline: 0;
 }
 
+
 a,
 a:hover {
     text-decoration: none;
@@ -38,6 +39,8 @@ html,
 body {
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
+    /* overflow-x: hidden;
+    height: 100%; */
 }
 
 /*===== Common css Ends =====*/
@@ -46,6 +49,7 @@ body {
     height: 8px;
     background-color: #000;
 }
+
 
 /* Navbar Start */
 .extra-large-nav {
@@ -70,12 +74,31 @@ body {
     padding: 0px 10px !important;
 }
 
-.navbar {
-    height: 45px;
+.large-device-logo {
+    height: 70px;
+    display: none;
 }
 
-.navbar-expand-lg .navbar-nav {
-    padding-bottom: 20px;
+.large-device-logo a {
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    line-height: 90px;
+}
+
+.navbar {
+    height: 120px;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-brand {
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 8%;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -86,6 +109,7 @@ body {
     cursor: pointer;
     padding: 0px 20px;
     position: relative;
+    margin-top: 60px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -110,6 +134,234 @@ body {
     width: 50%;
 }
 
+.bg {
+    background: #fff;
+    position: fixed;
+    animation: menu 1s;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+}
+
+@keyframes menu {
+    from {
+        top: -50px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+
+
+#myBtn {
+    padding: 5px 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    transition: .3s ease;
+    display: none;
+}
+
+#myBtn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+}
+
+/* responsive navbar */
+
+.responsive-navbar {
+    display: none;
+    margin-top: -60px;
+}
+
+
+.responsive-top-border {
+    height: 8px;
+    background-color: #000;
+    position: fixed;
+    z-index: 109;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    background-color: #fff;
+    position: fixed;
+    height: 80px !important;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.header a {
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    line-height: 80px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    margin-top: 60px;
+}
+
+.mainInner {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.mainInner div {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+#sidebarMenu {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+    background-color: #fff;
+    z-index: 99;
+}
+
+
+.sidebarMenuInner li {
+    padding: 10px 20px;
+}
+
+.sidebarMenuInner li a {
+    color: rgb(36, 36, 36);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.sidebarMenuInner li a:hover {
+    color: #000;
+}
+
+
+.sidebarMenuInner li a::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    background-color: #000;
+    transition: width .3s;
+}
+
+
+.sidebarMenuInner li a:hover::after {
+    width: 80%;
+}
+
+input[type="checkbox"]:checked~#sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 30px;
+    left: 40px;
+    height: 22px;
+    width: 22px;
+}
+
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+}
+
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+input[type=checkbox]:checked~.sidebarIconToggle>.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+
+input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
 
 /* Navbar Ends */
 
@@ -124,14 +376,14 @@ body {
  */
 
 #banner-part {
-    height: 600px;
+    height: 100vh;
     position: relative;
 }
 
 video {
     object-fit: cover;
     width: 100%;
-    height: 600px;
+    height: 100vh;
     top: 0;
     left: 0;
 
@@ -142,7 +394,7 @@ video {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #0000008c;
+    background-color: #000c;
     position: absolute;
 }
 
