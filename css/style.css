@@ -292,6 +292,17 @@ body {
     background-color: #000;
     transition: width .3s;
 }
+.sidebarMenuInner li a.active::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 80%;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    background-color: #000;
+    transition: width .3s;
+}
 
 
 .sidebarMenuInner li a:hover::after {
