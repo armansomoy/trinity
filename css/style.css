@@ -292,6 +292,7 @@ body {
     background-color: #000;
     transition: width .3s;
 }
+
 .sidebarMenuInner li a.active::after {
     position: absolute;
     content: "";
@@ -1825,10 +1826,14 @@ video {
     width: 100%;
 }
 
+#history-body .mobile-version {
+    display: none;
+}
 
 #history-body .year-details .common-year-space {
     position: relative;
     padding: 50px 0px 230px;
+    text-align: right;
 }
 
 #history-body .year-details .common-year-space h2 {
