@@ -334,7 +334,7 @@
 
     #myBtn {
         bottom: 40px;
-        right: 60px;
+        right: 40px;
     }
 
     #info-part .second-part {
@@ -1150,7 +1150,6 @@
         color: #fff;
         display: block;
         padding: 10px 20px;
-        text-align: center;
         font-size: 20px;
         text-decoration: none;
     }
@@ -1258,5 +1257,46 @@
         top: 49%;
     }
 
+    #history-details-body {
+        padding-top: 160px;
+    }
 
+    #history-details-body .left-bar {
+        display: none;
+    }
+
+    #history-details-body .mobile-version {
+        display: block;
+        position: relative;
+    }
+
+    #history-details-body .mobile-version .cross-part a {
+        color: #fbfbfb;
+        font-size: 23px;
+        position: absolute;
+        top: 10px;
+        right: 50px;
+    }
+
+    #history-details-body .year-details-box .first-year-details .cross-part a {
+        display: none;
+    }
+
+    #history-details-body .year-details-box .mobile-view {
+        display: block;
+        padding: 30px 10px;
+    }
+
+    #history-details-body .year-details-box .desktop-view {
+        display: none;
+    }
+
+    #history-details-body .year-details-box .first-year-details .text-part h4 {
+        padding-top: 0px;
+    }
+
+
+    #history-details-body .year-details-box .first-year-details .next-prev a {
+        bottom: 10px;
+    }
 }
