@@ -236,6 +236,12 @@
         font-size: 35px;
     }
 
+    #meet h4 {
+        padding: 0px 0px 30px;
+    }
+    #meet li {
+        font-size: 14px;
+    }
 
 
 }
@@ -720,6 +726,47 @@
         top: 49%;
     }
 
+    #mentee-banner h2 {
+        font-size: 35px;
+    }
+
+    #mentee-banner {
+        height: 500px;
+    }
+
+    #mentee-description img {
+        margin-bottom: 30px;
+    }
+
+    #mentee-description .text-part {
+        height: 300px;
+    }
+
+    #mail-part h2 {
+        font-size: 30px;
+        padding: 60px 0px 50px;
+    }
+
+    #mail-part input {
+        width: 360px;
+        margin-bottom: 20px;
+    }
+
+    #mail-part {
+        height: 350px;
+    }
+
+    #testimonials-part {
+        height: 650px;
+    }
+
+    #meet h4 {
+        padding: 0px 0px 30px;
+    }
+
+    #meet img {
+        margin: 30px 0px;
+    }
 
 }
 
@@ -1298,5 +1345,47 @@
 
     #history-details-body .year-details-box .first-year-details .next-prev a {
         bottom: 10px;
+    }
+
+    #mentee-banner h2 {
+        font-size: 35px;
+    }
+
+    #mentee-banner {
+        height: 500px;
+    }
+
+    #mentee-description img {
+        margin-bottom: 30px;
+    }
+
+    #mentee-description .text-part {
+        height: 300px;
+    }
+
+    #mail-part h2 {
+        font-size: 30px;
+        padding: 60px 0px 50px;
+    }
+
+    #mail-part input {
+        width: 360px;
+        margin-bottom: 20px;
+    }
+
+    #mail-part {
+        height: 350px;
+    }
+
+    #testimonials-part {
+        height: 650px;
+    }
+
+    #meet h4 {
+        padding: 0px 0px 30px;
+    }
+
+    #meet img {
+        margin: 30px 0px;
     }
 }
