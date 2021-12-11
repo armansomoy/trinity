@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "abchanel-corpo";
+    font-family:  'DM Serif Display', serif;
     src: url("https://fonts.chanel.com/k/4557ee3c5c7e229667c02c3e802771f4feae8659-l.woff2")
 }
 
@@ -40,7 +40,8 @@ h6 {
 }
 
 h2 {
-    font-family: "abchanel-corpo";
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 4px;
 }
 
 html,
@@ -118,7 +119,6 @@ body {
     padding: 0px 20px;
     position: relative;
     margin-top: 60px;
-    font-family: "abchanel-corpo";
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -430,13 +430,12 @@ video {
     position: absolute;
 }
 
-#banner-part h2 {
+#banner-part h1 {
     color: #fff;
     font-size: 130px;
     font-weight: 900;
     text-transform: uppercase;
     padding: 150px 0px;
-    font-family: "abchanel-corpo";
 }
 
 /* #banner-part h2 {
@@ -477,7 +476,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
-    font-family: "abchanel-corpo";
+    font-family:  'DM Serif Display', serif;
 }
 
 #about-part a {
@@ -516,7 +515,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
-    font-family: "abchanel-corpo";
+    font-family:  'DM Serif Display', serif;
 }
 
 #publications-part a {
@@ -559,7 +558,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
-    font-family: "abchanel-corpo";
+    font-family:  'DM Serif Display', serif;
 }
 
 #project-part a {
@@ -598,7 +597,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
-    font-family: "abchanel-corpo";
+    font-family:  'DM Serif Display', serif;
 }
 
 #service-part a {
@@ -637,7 +636,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
-    font-family: "abchanel-corpo";
+    font-family:  'DM Serif Display', serif;
 }
 
 #initiative-part a {
@@ -677,7 +676,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
-    font-family: "abchanel-corpo";
+    font-family:  'DM Serif Display', serif;
 }
 
 #travel-part a {
@@ -787,7 +786,7 @@ video {
     font-size: 48px;
     font-weight: 700;
     padding: 5px 5px 25px 25px;
-    letter-spacing: -2px;
+    letter-spacing: 4px;
     line-height: 70px;
 }
 
@@ -862,7 +861,7 @@ video {
     font-size: 50px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: -6px;
+    letter-spacing: 4px;
     padding: 150px 0px 50px;
 }
 
@@ -915,7 +914,7 @@ video {
     font-size: 35px;
     font-weight: 700;
     padding: 0px 0px 25px 0px;
-    letter-spacing: 0px;
+    letter-spacing: 4px;
 }
 
 #insta-canvas p {
@@ -1199,7 +1198,6 @@ video {
     font-weight: 600;
     padding-bottom: 20px;
     text-transform: uppercase;
-    font-family: "abchanel-corpo";
 }
 
 #footer-part p {
