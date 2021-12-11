@@ -2127,7 +2127,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     padding-bottom: 150px;
 }
 
@@ -2167,7 +2166,6 @@ video {
     background-position: center;
     background-repeat: no-repeat;
     padding-bottom: 150px;
-    background-attachment: fixed;
 }
 
 #still-offering h4 {
@@ -2338,7 +2336,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #service-banner h2 {
@@ -2387,7 +2384,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: relative;
     height: 600px;
 }
@@ -2477,7 +2473,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: relative;
     height: 600px;
 }
@@ -2525,7 +2520,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: relative;
     height: 600px;
 }
@@ -2613,7 +2607,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: relative;
     height: 600px;
 }
@@ -2661,7 +2654,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #mentee-banner h2 {
@@ -2752,7 +2744,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #shop-banner h2 {
@@ -2842,7 +2833,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #insider-description p {
@@ -3107,7 +3097,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #contact-banner h2 {
