@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "abchanel-corpo";
+    src: url("https://fonts.chanel.com/k/4557ee3c5c7e229667c02c3e802771f4feae8659-l.woff2")
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -34,6 +39,9 @@ h6 {
     margin-bottom: 0px;
 }
 
+h2 {
+    font-family: "abchanel-corpo";
+}
 
 html,
 body {
@@ -87,7 +95,7 @@ body {
 }
 
 .navbar {
-    height: 120px;
+    height: 125px;
     position: relative;
 }
 
@@ -110,6 +118,7 @@ body {
     padding: 0px 20px;
     position: relative;
     margin-top: 60px;
+    font-family: "abchanel-corpo";
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -422,6 +431,15 @@ video {
 }
 
 #banner-part h2 {
+    color: #fff;
+    font-size: 130px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 150px 0px;
+    font-family: "abchanel-corpo";
+}
+
+/* #banner-part h2 {
     color: transparent;
     font-size: 130px;
     font-weight: 900;
@@ -433,13 +451,13 @@ video {
     background-position: 0 0;
     animation: back 20s linear infinite;
     z-index: 99;
-}
+} */
 
-@keyframes back {
+/* @keyframes back {
     100% {
         background-position: 2000px 0;
     }
-}
+} */
 
 /* banner-part ends */
 
@@ -450,7 +468,7 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    transform: translate3d(0px, 0px, 0px);
 }
 
 #about-part h2 {
@@ -459,6 +477,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
+    font-family: "abchanel-corpo";
 }
 
 #about-part a {
@@ -489,7 +508,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #publications-part h2 {
@@ -498,6 +516,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
+    font-family: "abchanel-corpo";
 }
 
 #publications-part a {
@@ -540,7 +559,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
-
+    font-family: "abchanel-corpo";
 }
 
 #project-part a {
@@ -571,7 +590,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #service-part h2 {
@@ -580,6 +598,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
+    font-family: "abchanel-corpo";
 }
 
 #service-part a {
@@ -618,6 +637,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
+    font-family: "abchanel-corpo";
 }
 
 #initiative-part a {
@@ -649,7 +669,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #travel-part h2 {
@@ -658,6 +677,7 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
+    font-family: "abchanel-corpo";
 }
 
 #travel-part a {
@@ -688,7 +708,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #shop-part h2 {
@@ -697,7 +716,6 @@ video {
     font-weight: 700;
     text-transform: uppercase;
     padding: 200px 0px 40px;
-
 }
 
 #shop-part a {
@@ -727,7 +745,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #insider-part h2 {
@@ -767,10 +784,10 @@ video {
 
 #video-part h2 {
     color: #000;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 700;
-    padding: 55px 5px 25px 25px;
-    letter-spacing: 2px;
+    padding: 5px 5px 25px 25px;
+    letter-spacing: -2px;
     line-height: 70px;
 }
 
@@ -780,7 +797,7 @@ video {
     font-weight: 600;
     line-height: 27px;
     word-spacing: 3px;
-    padding: 0px 60px 0px 25px;
+    padding: 0px 23px 0px 25px;
 }
 
 #video-part img {
@@ -841,10 +858,11 @@ video {
 }
 
 #mail-part h2 {
-    color: #ffff;
-    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: -6px;
     padding: 150px 0px 50px;
 }
 
@@ -892,13 +910,12 @@ video {
     z-index: 1;
 }
 
-
 #insta-canvas h2 {
     color: #fff;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     padding: 0px 0px 25px 0px;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
 }
 
 #insta-canvas p {
@@ -1178,10 +1195,11 @@ video {
 
 #footer-part h4 {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     padding-bottom: 20px;
     text-transform: uppercase;
+    font-family: "abchanel-corpo";
 }
 
 #footer-part p {

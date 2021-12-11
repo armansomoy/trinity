@@ -239,6 +239,7 @@
     #meet h4 {
         padding: 0px 0px 30px;
     }
+
     #meet li {
         font-size: 14px;
     }
@@ -926,18 +927,22 @@
         left: 40%;
     }
 
-    #shop .slide-item figcaption {
+    /* #shop .slide-item figcaption {
         position: absolute;
         top: calc(90%);
         width: 100%;
         background-color: #fff;
         padding: 15px 25px 65px;
-    }
+    } */
 
+    #shop .slide-item figcaption {
+        position: absolute;
+        top: calc(90%);
+    }
 
     #shop .slide-item:hover figcaption,
     #shop .slide-item.hover figcaption {
-        top: 430px;
+        top: 310px;
     }
 
     #picture-part .text-part {
