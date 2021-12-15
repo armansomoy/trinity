@@ -22,6 +22,16 @@
 
     <!-- favicon -->
     <link rel="shortcut icon" href="images/logo-t.png" type="image/x-icon" sizes="16x16">
+
+
+    <!-- Jarallax Assets -->
+    <link href="./jaralax-asstes/css/demo.css" rel="stylesheet">
+    <link href="./jaralax-asstes/js/jarallax.css" rel="stylesheet">
+
+    <!-- Object Fit polyfill -->
+    <script src="https://unpkg.com/object-fit-images/dist/ofi.min.js"></script>
+    <script src="./jaralax-asstes/js/jarallax.js"></script>
+    <script src="./jaralax-asstes/js/jarallax-video.js"></script>
 </head>
 
 <body>
@@ -145,7 +155,7 @@
                     <a href="shop.html">SHOP</a>
                 </li>
                 <li>
-                    <a class="active"  href="insider.html">INSIDER</a>
+                    <a class="active" href="insider.html">INSIDER</a>
                 </li>
                 <li>
                     <a href="gateway.html">GETAWAYS</a>
@@ -176,16 +186,19 @@
 
     <!-- insider-description start -->
     <section id="insider-description">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 text-center m-auto">
-                    <p>“A Collection Of
-                        Words, Videos, And Experiences For A Deeper
-                        Look Into Trinity’s Thoughts And Introspection.
-                        Understand Her Insight, Intentions, And
-                        Perception. Experience More Of Trinity’s
-                        Personal Journey Through Trinity Talks: The
-                        Insider.”</p>
+        <div class="jarallax">
+            <img class="jarallax-img" src="images/insider-description.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 text-center m-auto">
+                        <p>“A Collection Of
+                            Words, Videos, And Experiences For A Deeper
+                            Look Into Trinity's Thoughts And Introspection.
+                            Understand Her Insight, Intentions, And
+                            Perception. Experience More Of Trinity's
+                            Personal Journey Through Trinity Talks: The
+                            Insider.”</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -602,6 +615,30 @@
         <i class="fa fa-arrow-up"></i>
     </a>
 
+
+
+
+
+    <!-- Jarallax Assets -->
+    <script type="text/javascript">
+        /* init Jarallax */
+        jarallax(document.querySelectorAll('.jarallax'), {
+            // scroll, scale, opacity, scale-opacity, scroll-opacity
+            type: 'scroll',
+
+            // animation speed
+            speed: 0.7,
+
+            // image parallax scroll effect
+            imgSize: 'cover',
+            imgPosition: '50% 50%',
+            imgRepeat: 'no-repeat',
+        });
+    </script>
+    <!-- Jarallax Assets -->
+
+
+    
     <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");

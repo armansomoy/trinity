@@ -22,6 +22,15 @@
 
     <!-- favicon -->
     <link rel="shortcut icon" href="images/logo-t.png" type="image/x-icon" sizes="16x16">
+
+    <!-- Jarallax Assets -->
+    <link href="./jaralax-asstes/css/demo.css" rel="stylesheet">
+    <link href="./jaralax-asstes/js/jarallax.css" rel="stylesheet">
+
+    <!-- Object Fit polyfill -->
+    <script src="https://unpkg.com/object-fit-images/dist/ofi.min.js"></script>
+    <script src="./jaralax-asstes/js/jarallax.js"></script>
+    <script src="./jaralax-asstes/js/jarallax-video.js"></script>
 </head>
 
 <body>
@@ -139,7 +148,7 @@
                     <a href="still.html">STILL</a>
                 </li>
                 <li>
-                    <a  class="active"  href="services.html">SERVICES</a>
+                    <a class="active" href="services.html">SERVICES</a>
                 </li>
                 <li>
                     <a href="shop.html">SHOP</a>
@@ -233,12 +242,15 @@
 
     <!-- mindful start -->
     <section id="mindful">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 m-auto text-center ">
-                    <h2>“MINDFUL LIVING / ELEVATE
-                        YOUR LIFESTYLE”</h2>
-                    <a href="#">Know More</a>
+        <div class="jarallax">
+            <img class="jarallax-img" src="images/service-03.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 m-auto text-center ">
+                        <h2>“MINDFUL LIVING / ELEVATE
+                            YOUR LIFESTYLE”</h2>
+                        <a href="#">Know More</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -263,11 +275,14 @@
 
     <!-- self-help start -->
     <section id="self-help">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 m-auto text-center ">
-                    <h2>“SELF HEALTH ESSENTIALS”</h2>
-                    <a href="#">Know More</a>
+        <div class="jarallax">
+            <img class="jarallax-img" src="images/publish.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 m-auto text-center ">
+                        <h2>“SELF HEALTH ESSENTIALS”</h2>
+                        <a href="#">Know More</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -291,24 +306,31 @@
 
     <!-- mindful-essentials start -->
     <section id="mindful-essentials">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 m-auto text-center ">
-                    <h2>“MINDFUL ESSENTIALS”</h2>
-                    <a href="#">Know More</a>
+        <div class="jarallax">
+            <img class="jarallax-img" src="images/service-08.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 m-auto text-center ">
+                        <h2>“MINDFUL ESSENTIALS”</h2>
+                        <a href="#">Know More</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- mindful-essentials  ends -->
 
+
     <!-- travel-part start -->
     <section id="travel-part">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 m-auto text-center">
-                    <h2>TRAVEL WITH TRINITY</h>
-                        <h5><a href="#">SEE MORE</a></h5>
+        <div class="jarallax">
+            <img class="jarallax-img" src="images/travel.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 m-auto text-center">
+                        <h2>TRAVEL WITH TRINITY</h>
+                            <h5><a href="#">SEE MORE</a></h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -570,6 +592,31 @@
         <i class="fa fa-arrow-up"></i>
     </a>
 
+
+
+
+
+
+
+
+    <!-- Jarallax Assets -->
+    <script type="text/javascript">
+        /* init Jarallax */
+        jarallax(document.querySelectorAll('.jarallax'), {
+            // scroll, scale, opacity, scale-opacity, scroll-opacity
+            type: 'scroll',
+
+            // animation speed
+            speed: 0.7,
+
+            // image parallax scroll effect
+            imgSize: 'cover',
+            imgPosition: '50% 50%',
+            imgRepeat: 'no-repeat',
+        });
+    </script>
+    <!-- Jarallax Assets -->
+
     <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");
@@ -593,11 +640,6 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-
-
-
-
-
 
 
 

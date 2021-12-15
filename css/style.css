@@ -460,23 +460,31 @@ video {
 
 /* banner-part ends */
 
-/* about-part start */
-#about-part {
+.main-div {
     height: 600px;
-    background-image: url(../images/history.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transform: translate3d(0px, 0px, 0px);
+    overflow-y: auto;
+    perspective: 3px;
+    overflow-x: hidden;
 }
+
+.main-div::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* about-part start */
+#about-part {}
+
+
+
 
 #about-part h2 {
     color: #000;
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
-    font-family:  'DM Serif Display', serif;
+    padding: 225px 0px 40px;
+    font-family: 'DM Serif Display', serif;
 }
 
 #about-part a {
@@ -500,22 +508,18 @@ video {
 
 /* about-part ends */
 
+
+
 /* publications-part start */
-#publications-part {
-    height: 600px;
-    background-image: url(../images/publish.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 
 #publications-part h2 {
     color: #fff;
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
-    font-family:  'DM Serif Display', serif;
+    padding: 225px 0px 40px;
+    font-family: 'DM Serif Display', serif;
 }
 
 #publications-part a {
@@ -538,27 +542,15 @@ video {
 
 /* publications-part ends */
 
-
-
-
-
 /* project-part start */
-#project-part {
-    height: 600px;
-    background-image: url(../images/project.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
 #project-part h2 {
     color: #000;
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
-    font-family:  'DM Serif Display', serif;
+    padding: 225px 0px 40px;
+    font-family: 'DM Serif Display', serif;
 }
 
 #project-part a {
@@ -583,21 +575,15 @@ video {
 /* project-part ends */
 
 /* service-part start */
-#service-part {
-    height: 600px;
-    background-image: url(../images/service.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 
 #service-part h2 {
     color: #000;
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
-    font-family:  'DM Serif Display', serif;
+    padding: 225px 0px 40px;
+    font-family: 'DM Serif Display', serif;
 }
 
 #service-part a {
@@ -621,22 +607,13 @@ video {
 /* service-part ends */
 
 /* initiative-part start */
-#initiative-part {
-    height: 600px;
-    background-image: url(../images/initiative.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 #initiative-part h2 {
     color: #000;
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
-    font-family:  'DM Serif Display', serif;
+    padding: 205px 0px 40px;
+    font-family: 'DM Serif Display', serif;
 }
 
 #initiative-part a {
@@ -662,21 +639,14 @@ video {
 /* initiative-part ends */
 
 /* travel-part start */
-#travel-part {
-    height: 600px;
-    background-image: url(../images/travel.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 #travel-part h2 {
     color: #fff;
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
-    font-family:  'DM Serif Display', serif;
+    padding: 225px 0px 40px;
+    font-family: 'DM Serif Display', serif;
 }
 
 #travel-part a {
@@ -701,20 +671,13 @@ video {
 
 
 /* shop-part start */
-#shop-part {
-    height: 600px;
-    background-image: url(../images/shop.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 #shop-part h2 {
     color: #000;
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
+    padding: 225px 0px 40px;
 }
 
 #shop-part a {
@@ -738,20 +701,14 @@ video {
 /* shop-part ends */
 
 /* insider-part start */
-#insider-part {
-    height: 600px;
-    background-image: url(../images/insider.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 
 #insider-part h2 {
     color: #ffff;
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
+    padding: 225px 0px 40px;
 }
 
 #insider-part a {
@@ -1222,7 +1179,6 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: relative;
 }
 
@@ -1882,8 +1838,8 @@ video {
 }
 
 #history-body .year-details #year-two .image-one {
-    height: 320px;
-    width: 460px;
+    height: 500px;
+    width: 350px;
 }
 
 #history-body .year-details #year-two .image-two {
@@ -1905,12 +1861,9 @@ video {
 }
 
 
-#history-body .year-details #year-two h2 {
-    top: 36%;
-}
+#history-body .year-details #year-two h2 {}
 
 #history-body .year-details #year-two a {
-    top: 39%;
     color: #fff;
 }
 
@@ -1954,6 +1907,30 @@ video {
 
 #history-body .year-details #year-three a {
     top: 46%;
+    color: #fff;
+}
+
+#history-body .year-details #year-four .image-one {
+    height: 500px;
+    margin-left: 100px;
+}
+
+#history-body .year-details #year-four .image-two {
+    height: 300px;
+    width: 400px;
+    margin-top: -50px;
+}
+#history-body .year-details #year-four .image-three {
+    margin: 10px 117px;
+    height: 300px;
+    width: 400px;
+}
+
+#history-body .year-details #year-four  h2 {
+    top: 17%;
+}
+#history-body .year-details #year-four  a{
+    top: 25%;
     color: #fff;
 }
 
@@ -2107,6 +2084,7 @@ video {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 550px;
 }
 
 #still-banner h2 {
@@ -2120,13 +2098,7 @@ video {
 /* still-banner ends */
 
 /* still-details-banner start */
-#still-details-banner {
-    background-image: url(../images/still-details-banner.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 150px;
-}
+
 
 #still-details-banner h4 {
     color: #fff;
@@ -2158,20 +2130,14 @@ video {
 /* still-details-banner ends */
 
 /* still-offering start */
-#still-offering {
-    background-image: url(../images/still-2.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 150px;
-}
+
 
 #still-offering h4 {
     color: #fff;
     font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
+    padding: 220px 0px 40px;
 
 }
 
@@ -2281,20 +2247,13 @@ video {
 /* #join-community ends */
 
 /* still-to-date start */
-#still-to-date {
-    background-image: url(../images/still-to-date.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 150px;
-}
 
 #still-to-date h4 {
     color: #000;
     font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
+    padding: 225px 0px 40px;
 
 }
 
@@ -2330,6 +2289,7 @@ video {
  ********************************/
 /* shop-banner start */
 #service-banner {
+    height: 550px;
     background-image: url(../images/service-banner.jpg);
     background-size: cover;
     background-position: center;
@@ -2425,15 +2385,6 @@ video {
 /* elevate ends */
 
 /* mindful start */
-#mindful {
-    background-image: url(../images/service-03.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
-    height: 600px;
-}
 
 
 #mindful h2 {
@@ -2441,7 +2392,7 @@ video {
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
+    padding: 180px 0px 40px;
 }
 
 #mindful a {
@@ -2513,22 +2464,14 @@ video {
 
 
 /* self-help start */
-#self-help {
-    background-image: url(../images/service-05.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-}
 
 
 #self-help h2 {
-    color: #000;
+    color: #fff;
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
+    padding: 225px 0px 40px;
 }
 
 #self-help a {
@@ -2600,22 +2543,13 @@ video {
 
 
 /* mindful-essentials start */
-#mindful-essentials {
-    background-image: url(../images/service-08.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-}
-
 
 #mindful-essentials h2 {
     color: #000;
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 200px 0px 40px;
+    padding: 225px 0px 40px;
 }
 
 #mindful-essentials a {
@@ -2755,49 +2689,6 @@ video {
 /* shop-banner ends */
 
 
-/* shop-part start */
-#shop-part {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-#shop-part img {
-    width: 100%;
-}
-
-#shop-part .top-cut {
-    margin-top: -150px;
-}
-
-#shop-part .text-part h5 {
-    font-size: 25px;
-    color: #000;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding-bottom: 25px;
-    padding-top: 200px;
-}
-
-#shop-part .text-part a {
-    padding: 15px 25px;
-    background-color: #fff;
-    color: #000;
-    font-size: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-bottom: 2px solid #fff;
-    border: 1px solid #000;
-    position: relative;
-    transition: all .3s ease;
-}
-
-#shop-part .text-part a:hover {
-    background-color: #000;
-    color: #ffff;
-}
-
-/* shop-part ends */
-
 
 
 /*******************************
@@ -2826,12 +2717,6 @@ video {
 /* insider-banner ends */
 
 /* insider-description start */
-#insider-description {
-    background-image: url(../images/insider-description.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 #insider-description p {
     color: #000;

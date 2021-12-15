@@ -22,6 +22,16 @@
 
     <!-- favicon -->
     <link rel="shortcut icon" href="images/logo-t.png" type="image/x-icon" sizes="16x16">
+
+
+    <!-- Jarallax Assets -->
+    <link href="./jaralax-asstes/css/demo.css" rel="stylesheet">
+    <link href="./jaralax-asstes/js/jarallax.css" rel="stylesheet">
+
+    <!-- Object Fit polyfill -->
+    <script src="https://unpkg.com/object-fit-images/dist/ofi.min.js"></script>
+    <script src="./jaralax-asstes/js/jarallax.js"></script>
+    <script src="./jaralax-asstes/js/jarallax-video.js"></script>
 </head>
 
 <body>
@@ -135,7 +145,7 @@
                     <a href="publications.html">PUBLICATIONS</a>
                 </li>
                 <li>
-                    <a  class="active"  href="still.html">STILL</a>
+                    <a class="active" href="still.html">STILL</a>
                 </li>
                 <li>
                     <a href="services.html">SERVICES</a>
@@ -175,14 +185,17 @@
 
     <!-- still-details-banner start -->
     <div id="still-details-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 m-auto text-center">
-                    <h4>THE STILL PROJECT IS A GLOBAL
-                        PLATFORM DESIGNED TO HELP BRING AWARENESS TO
-                        MENTAL HEALTH AND SUPPORT IN IMPLEMENTING AND
-                        INCORPORATING A MORE MINDFUL DAILY LIFESTYLE.</h4>
-                    <h5><a href="#">Click Here</a></h5>
+        <div class="jarallax">
+            <img class="jarallax-img" src="images/still-details-banner.jpeg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 m-auto text-center">
+                        <h4>THE STILL PROJECT IS A GLOBAL
+                            PLATFORM DESIGNED TO HELP BRING AWARENESS TO
+                            MENTAL HEALTH AND SUPPORT IN IMPLEMENTING AND
+                            INCORPORATING A MORE MINDFUL DAILY LIFESTYLE.</h4>
+                        <h5><a href="#">Click Here</a></h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -214,13 +227,16 @@
 
     <!-- still-offering start-->
     <section id="still-offering">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <h4>Focus on Helping People with our services</h4>
-                    <a href="#">Click Here</a>
-                    <a href="#">Essentials</a>
-                    <a href="#">Gateways</a>
+        <div class="jarallax">
+            <img class="jarallax-img" src="images/still-2.jpeg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <h4>Focus on Helping People with our services</h4>
+                        <a href="#">Click Here</a>
+                        <a href="#">Essentials</a>
+                        <a href="#">Gateways</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -256,11 +272,14 @@
 
     <!-- still-to-date start-->
     <section id="still-to-date">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 text-center m-auto">
-                    <h4>STAY UP TO DATE WITH STILL!</h4>
-                    <a href="#">Let's Go.. </a>
+        <div class="jarallax">
+            <img class="jarallax-img" src="images/still-to-date.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 text-center m-auto">
+                        <h4>STAY UP TO DATE WITH STILL!</h4>
+                        <a href="#">Let's Go.. </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -518,6 +537,29 @@
         <i class="fa fa-arrow-up"></i>
     </a>
 
+
+    <!-- Jarallax Assets -->
+    <script type="text/javascript">
+        /* init Jarallax */
+        jarallax(document.querySelectorAll('.jarallax'), {
+            // scroll, scale, opacity, scale-opacity, scroll-opacity
+            type: 'scroll',
+
+            // animation speed
+            speed: 0.7,
+
+            // image parallax scroll effect
+            imgSize: 'cover',
+            imgPosition: '50% 50%',
+            imgRepeat: 'no-repeat',
+        });
+    </script>
+    <!-- Jarallax Assets -->
+
+
+
+
+
     <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");
@@ -541,18 +583,6 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
